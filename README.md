@@ -36,7 +36,7 @@ Clone the repository:
 
 
 ```sh
-git clone https://github.com/your/repository.git
+git clone https://github.com/RaulUrtecho/photos.git
 ```
 Navigate to the project directory:
 ```sh
@@ -61,8 +61,8 @@ flutter test integration_test/app_test.dart
 ```
 
 ### Folder Structure
-models/: Contains data models like photo.dart.
-services/: Handles data fetching logic from external sources (photos_service.dart).
-repositories/: Manages data access logic, abstracting the data source (photos_repository.dart).
-ui/: Holds UI components, including screens and widgets (app.dart and photos_screen.dart).
-ui/view_model/: Contains business logic and state management for the PhotosScreen (photos_view_model.dart).
+- models/: Contains data models like photo.dart.
+- services/: Handles data fetching logic from external sources (photos_service.dart).
+- repositories/: Manages data access logic, abstracting the data source (photos_repository.dart).
+- ui/: Holds UI components, including screens and widgets (app.dart and photos_screen.dart).
+- ui/view_model/: Contains business logic and state management for the PhotosScreen (photos_view_model.dart).
